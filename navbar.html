@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS1 JS1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS external -->
+    <link href="./style.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- Start Header Section -->
+    <header>
+        <!-- Start nav bar -->
+        <nav class="navbar nav-bar-expand bg-dark navbar-dark">
+            <!-- Start site logo bar -->
+            <div class="sitelogo--nav">
+                <ul class="logolist--nav">
+                    <li class="truck--container">
+                        <div class="icon-slider slider-1">
+                            <div class="slider-text">
+                                <div class="">
+                                    <h6>Free Worldwide Delivery</h6>
+                                    <small>On orders over $66.15</small>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    <li class="feedback--container">
+                        <div class="icon-slider slider-2">
+                            <div class="slider-text">
+                                <div class="">
+                                    <h6>Loved By Customers</h6>
+                                    <small>Over 37,000 reviews</small>
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+                    <li class="sitelogo--container">
+                        <a href="#sitelogo" class="navbar-brand plc--relative">
+                            <i class="fas fa-biking"></i>
+                            <h1>Flyride</h1>
+                        </a>
+                    </li>
+                    <li class="searchitem--container">
+                        <label for="searchitem"></label>
+                        <input type="search" name="searchitem" id="searchitem" class="search--items bg-dark" placeholder="Search products ..." autofocus/>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li class="people--container"><a href="#people" class="plc--relative"><i class="fas fa-user">
+                    </i></a></li>
+                    <li class="chart--container dropdown">
+                        <a href="#chart" class="plc--relative dropbtn">
+                            <i class="fas fa-shopping-bag gycolors"><sup>0</sup></i>
+                            <h6 class="gycolors">Your chart</h6>
+                            <a href="#"><small class="dollars">$0.00</small></a>
+                        </a>
+                        <ul class="chart--content dropdown-content">
+                            <li><p>No products in the chart.</p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- End site logo bar --> 
+        </nav>
+        <!-- End black nav bar -->
+        <!-- Start green nav bar  -->
+        <nav class="menu--navbar navbar nav-bar-expand navbar-info">
+            <!-- Start menu bar -->
+            <div class="menu--bar">
+                    <ul>
+                        <li class="ms-5"><p class="menu--anchor text-light">Home</p></li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Shop</button>
+                            <ul class="dropdown-content">
+                                <li><a href="#" class="menu--anchor item me-4">Top Rated Product</a>  
+                                    <a href="#" class="menu--anchor badge bg-danger rounded-0">Sale</a> </li>
+                                <li><a href="#" class="menu--anchor item">Product Category</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Blog</button>
+                            <ul class="blg--content dropdown-content">
+                                <li><a href="#" class="menu--anchor item">Left Sidebar</a></li>
+                                <li><a href="#" class="menu--anchor item">Right Sidebar</a></li>
+                                <li><a href="#" class="menu--anchor item">Full Width</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Media</button>
+                            <div class="medias content dropdown-content">
+                                <ul class="media--con dropdown-content gallerys">
+                                    <li><p class="menu--anchor item">Gallery</p></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">2 columns</a></li>
+                                    <li><a href='#' class="menu--anchor item ms-2">3 columns</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">4 columns</a></li>
+                                </ul>
+                                <ul class="media--con dropdown-content protifolios">
+                                    <li><p class="menu--anchor item">Portifolio</p></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">2 columns</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">3 columns</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">4 columns</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn">ShortCode</button>
+                            <div class="shcode content dropdown-content">
+                                <ul class="shcode--con dropdown-content">
+                                    <li><p class="menu--anchor item">ShortCode Pages</p></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Accordions & Toggles</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Button</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Driver</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Progress Bars & Pie Chart</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Lists</a></li>
+                                </ul>
+                                <ul class="shcode--con dropdown-content">
+                                    <li><p class="menu--anchor item">ShortCode Pages</p></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Services</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Tabs</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Maps & Contact</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Message Boxes</a></li>
+                                    <li><a href="#" class="menu--anchor item ms-2">Pricing Tables</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Features</button>
+                            <ul class="blg--content dropdown-content">
+                                <li><a href="#" class="menu--anchor item">FAQS Page</a></li>
+                                <li><a href="#" class="menu--anchor item">Typography</a></li>
+                                <li><a href="#" class="menu--anchor item">Sitemap</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><button class="dropbtn">About us</button></li>
+                        <li class="dropdown"><button class="contactus--box dropbtn">Contact Us</button></li>
+                        <li class="dropdown"><button class="dropbtn">Wishlist</button></li>
+                        <li class="dropdown">
+                            <div class="dropdown">
+                                <button class="qc--btn dropbtn">Quick Links<i class="fas fa-angle-down"></i></button>
+                                <ul class="qc--content dropdown-content">
+                                    <li><a href="#" class="menu--anchor item ">Track Order</a></li>
+                                    <li><a href="#" class="menu--anchor item ">Gift Voucher</a></li>
+                                    <li><a href="#" class="menu--anchor item ">Customer Service</a></li>
+                                    <li><a href="#" class="menu--anchor item ">Today's Deal</a></li>
+                                    <li><a href="#" class="menu--anchor item ">Sitemap</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            <!-- End menu bar -->
+        </nav>
+
+    </header>
+    <!-- End Header Section -->
+    <!-- Bootstrap CSS1 JS1 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
